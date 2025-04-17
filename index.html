@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div id="container">
+            <header id="inpt">
+                <h1 id="title">
+                    Metric / imperial unit conversion
+                </h1>
+                <input id="input-el" type="number" placeholder=0 aria-label="Value to convert">
+                <button id="convert-btn" type="button">
+                    Convert
+                </button>
+            </header>
+            <main id="results">
+                <section class="result-card">
+                    <h3>
+                        Length (Meter/Feet)
+                    </h3>
+                    <p id="length-el">
+                        0 meters = 0.000 feet&nbsp;|&nbsp;0 feet = 0.000 meters
+                    </p>
+                </section>
+                
+                <section class="result-card">
+                    <h3>
+                        Volume (Liters/Gallons)
+                    </h3>
+                    <p id="volume-el">
+                        0 liters = 0.000 gallons&nbsp;|&nbsp;0 gallons = 0.000 liters
+                    </p>
+                </section>
+                
+                <section class="result-card">
+                    <h3>
+                        Mass (Kilograms/Pounds)
+                    </h3>
+                    <p id="mass-el">
+                        0 kilos = 0.000 pounds&nbsp;|&nbsp;0 pounds = 0.000 kilos
+                    </p>
+                </section>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
